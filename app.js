@@ -1,18 +1,21 @@
 // Requiring module
 const express = require('express');
-
+const path = require('path');
 // Creating express object
 const app = express();
 
+
+const PORT = 3000;
+
+app.use(express.static('bostami'));
+
 // Handling GET request
 app.get('/', (req, res) => { 
-    res.send('A simple Node App is '
-        + 'running on this server') 
-    res.end() 
-}) 
+    res.sendFile(path.join(__dirname, 'bostami', 'index.html')) 
+    
+}); 
 
 // Port Number
-const PORT = process.env.PORT ||3000;
 
 // Server Setup
 app.listen(PORT,console.log(
