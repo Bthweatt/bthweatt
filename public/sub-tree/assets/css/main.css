@@ -2527,8 +2527,10 @@ textarea:focus::placeholder {
     width: 150px;
   }
 }
+@media (prefers-color-scheme: dark){
 .dark-theme .page-wrapper.page-wrapper-2 {
-  background-image: url(../img/bg/page-bg-dark-2.jpg) !important;
+  background-color: #383838 !important;
+}
 }
 .home-3 .text-right {
   text-align: right;
