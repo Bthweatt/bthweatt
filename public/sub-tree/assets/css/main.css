@@ -7,7 +7,8 @@ Template Name: Name - Bostami - HTML Personal Portfolio Template
 Description: Bostami – HTML Personal Portfolio Template can be used for many purposes. It’s a creative, minimal and clean design.It’s suitable for Designer, Developer, Specialist, Content Writer, Instructor, Photographer, Freelancer, Software Engineer, Teacher or others expert who Show their professional projects and services in digital way. It’s 100% responsive and Ultra Super Fast beacause it’s made with Latest html
 Author: elite-themes
 Version: 1.0
-
+NEW THEME COLORS: #FAF4DF
+                  #0C5C73  
 -----------------------------------------------------------------------------------
 
 CSS INDEX
@@ -38,11 +39,11 @@ CSS INDEX
 *************************************************************** */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap");
 :root {
-  --common-white: #ffffff;
+  --common-white: #FAF4DF;
   --common-black: #000;
   --theme-primary: #1b74e4;
   --theme-secondary: #fa5252;
-  --body-text: #44566c;
+  --body-text: #0C5C73;
   --body-heading: #000;
   --heading-black: #0f172a;
   --light-white: #f3f6f6;
@@ -55,11 +56,11 @@ CSS INDEX
 }
 
 :root .dark-theme {
-  --common-white: #000;
+  --common-white: #0c5c73;
   --common-black: #fff;
   --theme-primary: #1b74e4;
   --theme-secondary: #fa5252;
-  --body-text: #a6a6a6;
+  --body-text: #FAF4DF;
   --body-heading: #fff;
   --heading-black: #0f172a;
   --light-white: #f3f6f6;
@@ -69,12 +70,13 @@ CSS INDEX
 }
 
 body {
-  font-family: "Baskerville", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: var(--body-text);
   font-size: 16px;
   line-height: 28px;
+  background-color: #FAF4DF;
 }
 
 .img,
@@ -1837,7 +1839,7 @@ textarea:focus::placeholder {
   font-weight: 400;
   text-transform: capitalize;
   color: var(--common-white);
-  background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
+  background: #0c5c73;
   line-height: 27px;
   padding: 12px 30px;
   border-radius: 10px;
@@ -1853,9 +1855,9 @@ textarea:focus::placeholder {
 }
 .btn-2:hover,
 .btn-2:focus {
-  background: linear-gradient(80deg, #fa5252 0%, #e12a72 100%);
-  border: 1px solid linear-gradient(97deg, rgb(201, 93, 93) 0%, rgb(221, 36, 118) 100%);
-  color: var(--light-white);
+  background: #FAF4DF;
+  border: 1px solid #0c5c73 ;
+  color: #0C5C73;
   transform: translateY(-2px);
 }
 .btn-2:hover .icon svg * {
@@ -1868,10 +1870,11 @@ textarea:focus::placeholder {
   height: 26px;
   line-height: 23px;
   text-align: center;
-  background-color: var(--common-white);
+  background-color: var(--body-text);
   border-radius: 50%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   margin-right: 10px;
+  color: var(--common-white);
 }
 .dark-btn:hover {
   background-color: var(--theme-secondary);
@@ -1893,7 +1896,7 @@ textarea:focus::placeholder {
 }
 .dark-theme .home-1 .dark-btn .fa-sun {
   display: block;
-  color: #fff;
+  
 }
 .dark-theme .home-1 .dark-btn .fa-moon {
   display: none;
@@ -1907,7 +1910,7 @@ textarea:focus::placeholder {
 }
 .dark-theme .home-3 .dark-btn .fa-sun {
   display: block;
-  color: #fff;
+  
 }
 .dark-theme .home-3 .dark-btn .fa-moon {
   display: none;
@@ -1931,20 +1934,20 @@ textarea:focus::placeholder {
   font-size: 22px;
 }
 .dark-theme .dark-btn.dark-btn-2,
-.dark-theme .dark-btn.dark-btn {
-  background: rgba(255, 255, 255, 0.2);
+.dark-theme .dark-btn.dark-btn .btn-2 {
+  background: #FAF4DF;
 }
 .page-wrapper-2 .dark-btn:hover {
-  background: rgb(250, 82, 82);
-  background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
-  color: #fff;
+  background: #FAF4DF;
+  color: #0C5C73;
+  border: 1px solid  #0C5C73
 }
 .page-wrapper-2 .dark-btn .fa-sun {
   display: none;
 }
 .dark-theme .page-wrapper-2 .dark-btn .fa-sun {
   display: block;
-  color: #fff;
+  
 }
 .dark-theme .page-wrapper-2 .dark-btn .fa-moon {
   display: none;
@@ -2373,7 +2376,7 @@ textarea:focus::placeholder {
 }
 .bastami-main-menu ul li a {
   display: block;
-  font-size: 16px;
+  font-size: 13px;
   text-transform: capitalize;
   font-weight: 500;
   line-height: 1;
@@ -2469,7 +2472,7 @@ textarea:focus::placeholder {
   }
 }
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a {
-  background: #fff;
+  background: #FAF4DF;
   border-radius: 8px;
   padding: 0px 19px;
   transition: 0.3s;
@@ -2483,8 +2486,7 @@ textarea:focus::placeholder {
   }
 }
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a:hover {
-  background: rgb(250, 82, 82);
-  background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
+  background: #0c5c73;
 }
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a span {
   display: inline-block;
@@ -2495,8 +2497,7 @@ textarea:focus::placeholder {
   font-size: 20px;
 }
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li:is(.active) a {
-  background: rgb(250, 82, 82);
-  background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
+  background: #0c5c73;
 }
 
 .bostami-header-logo {
@@ -2529,7 +2530,7 @@ textarea:focus::placeholder {
 }
 @media (prefers-color-scheme: dark){
 .dark-theme .page-wrapper.page-wrapper-2 {
-  background-color: #383838 !important;
+  background-color: #0c5c73 !important;
 }
 }
 .home-3 .text-right {
@@ -2737,7 +2738,7 @@ textarea:focus::placeholder {
 .dark-theme .btn-2.circle {
   color: #fff;
 }
-/*@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .bostami-parsonal-info-name {
     font-size: 20px;
   }
@@ -2746,7 +2747,7 @@ textarea:focus::placeholder {
   .bostami-parsonal-info-name {
     font-size: 22px;
   }
-}*/
+}
 .bostami-parsonal-info-bio {
   font-size: 14px;
   display: inline-block;
@@ -4621,7 +4622,7 @@ textarea:focus::placeholder {
 .dark-theme .page-wrapper .bostami-parsonal-info-bio,
 .dark-theme .page-wrapper .bostami-parsonal-info-social-link li a,
 .dark-theme .page-wrapper .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a {
-  background-color: #1d1d1d;
+  background-color: #0C5C73;
 }
 .dark-theme .page-wrapper .bg-light-white-2,
 .dark-theme .page-wrapper .blog-slider-single,
@@ -4636,13 +4637,13 @@ textarea:focus::placeholder {
   background-color: #212425;
 }
 .dark-theme .page-wrapper .bastami-main-menu ul li.active a {
-  color: #fff;
+  color: #0C5C73;
 }
 .dark-theme .page-wrapper .bastami-main-menu ul li.active {
   background-color: #1b74e4;
 }
 .dark-theme .page-wrapper .bastami-main-menu ul li:hover a {
-  color: #fff;
+  color: #0C5C73;
 }
 .dark-theme .page-wrapper .bastami-main-menu ul li:hover {
   background-color: #1b74e4;
@@ -4805,7 +4806,19 @@ textarea:focus::placeholder {
   border-bottom-color: #333;
 }
 .dark-theme .bostami-parsonal-info-btn .btn-2 {
-  color: #fff;
+  color: #0C5C73;
+  background-color: #FAF4DF;
+}
+.dark-theme .btn-2:hover, .btn-2:focus {
+  background: #0c5c73;
+  border: 1px solid #FAF4DF;
+  color: #FAF4DF;
+  transform: translateY(-2px);
+}
+.dark-theme .dark-btn:hover {
+  background: #0C5C73;
+  color: #faf4df;
+  border: 1px solid  #faf4df
 }
 
 /* blog single */
@@ -4908,4 +4921,15 @@ textarea:focus::placeholder {
   color: #fff;
 }
 .dark-theme {
+  color: #faf4df;
+}
+.dark-theme .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li:is(.active) a {
+  background: rgb(250, 82, 82);
+  background: #FAF4DF;
+}
+.dark-theme .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a:hover{
+
+  background: #FAF4DF;
+
+
 }
