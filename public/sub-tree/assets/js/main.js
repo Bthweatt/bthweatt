@@ -41,6 +41,7 @@
   var darktoggle = document.querySelector(".dark-btn-icon");
   var home1bgimg = document.querySelector(".page-wrapper");
   var home2bgimg = document.querySelector(".page-wrapper-2");
+  var logo = document.querySelector(".site-logo img");
 
   // Function to toggle the dark theme
   function toggleDarkTheme() {
@@ -53,12 +54,15 @@
 
     if (isDarkTheme) {
       darktoggle.src = "assets/img/icon/sun-icon.png";
-      home1bgimg.style.backgroundImage =
-        "url('assets/img/bg/page-bg-dark-1.jpg')";
+      /* home1bgimg.style.backgroundImage =
+        "url('assets/img/bg/dark-bg.png')"; */
+        logo.src = "sub-tree/assets/img/logo/logo-dark.png";
     } else {
       darktoggle.src = "assets/img/icon/mon-icon.png";
       home1bgimg.style.backgroundImage = "url('assets/img/bg/page-bg-1.jpg')";
       home2bgimg.style.backgroundImage = "url('assets/img/bg/page-bg-1.jpg')";
+      logo.src = "sub-tree/assets/img/logo/logo.png";
+
     }
   }
   // Check if the user preference is already stored in local storage

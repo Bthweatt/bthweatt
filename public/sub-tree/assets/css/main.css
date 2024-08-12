@@ -44,7 +44,7 @@ CSS INDEX
   --theme-primary: #1b74e4;
   --theme-secondary: #fa5252;
   --body-text: #0C5C73;
-  --body-heading: #000;
+  --body-heading: #0C5C73;
   --heading-black: #0f172a;
   --light-white: #f3f6f6;
   --light-white-2: #f8fbfb;
@@ -61,7 +61,7 @@ CSS INDEX
   --theme-primary: #1b74e4;
   --theme-secondary: #fa5252;
   --body-text: #FAF4DF;
-  --body-heading: #fff;
+  --body-heading: #FAF4DF;
   --heading-black: #0f172a;
   --light-white: #f3f6f6;
   --light-white-2: #f8fbfb;
@@ -2120,7 +2120,7 @@ textarea:focus::placeholder {
 }
 
 .bostami-page-area .bostami-page-wrap {
-  background: #fff;
+  background: var(--common-white);
   border-radius: 20px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px),
@@ -4705,7 +4705,7 @@ textarea:focus::placeholder {
 }
 
 .dark-theme .page-wrapper-2 .bostami-page-area .bostami-page-wrap {
-  background: #111;
+  background: var(--common-white);
 }
 .dark-theme .page-wrapper-2 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a span svg * {
   fill: white;
