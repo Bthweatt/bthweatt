@@ -2935,7 +2935,7 @@ textarea:focus::placeholder {
   }
 }
 .bostami-parsonal-info-area.bostami-parsonal-info-2-area .bostami-parsonal-info-bio {
-  background: transparent;
+  background: #0C5C73;
   color: #7b7b7b;
 }
 .bostami-parsonal-info-area.bostami-parsonal-info-2-area .bostami-parsonal-info-social-link li a:hover {
