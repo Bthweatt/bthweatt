@@ -76,7 +76,7 @@ body {
   color: var(--body-text);
   font-size: 16px;
   line-height: 28px;
-  background-color: #FAF4DF;
+  background-color: var(--common-white);
 }
 
 .img,
@@ -2122,6 +2122,8 @@ textarea:focus::placeholder {
 .bostami-page-area .bostami-page-wrap {
   background: var(--common-white);
   border-radius: 20px;
+  border: 1px solid;
+  box-shadow: 8px 8px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px),
   only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2725,7 +2727,7 @@ textarea:focus::placeholder {
   object-position: top;
 }
 .bostami-parsonal-info-name {
-  font-size: 26px;
+  font-size: 30px;
   text-transform: capitalize;
   font-weight: 500;
   color: var(--common-black);
@@ -2734,6 +2736,9 @@ textarea:focus::placeholder {
 }
 .btn-2.circle {
   border-radius: 30px;
+  font-family: "Montserrat", serif;  
+  text-transform: capitalize;
+
 }
 .dark-theme .btn-2.circle {
   color: #fff;
@@ -2749,13 +2754,13 @@ textarea:focus::placeholder {
   }
 }
 .bostami-parsonal-info-bio {
-  font-size: 14px;
+  font-size: 18px;
   display: inline-block;
-  font-weight: 500;
+  font-weight: 550;
   text-transform: capitalize;
-  color: var(--common-black);
-  font-family: "Poppins", sans-serif;
-  background-color: var(--light-white);
+  color: var(--body-text);
+  font-family: "Baskerville", serif;
+  border: 1px solid;
   border-radius: 5px;
   padding: 4px 20px;
 }
@@ -2933,10 +2938,6 @@ textarea:focus::placeholder {
     width: 260px;
     height: 260px;
   }
-}
-.bostami-parsonal-info-area.bostami-parsonal-info-2-area .bostami-parsonal-info-bio {
-  background: #0C5C73;
-  color: #7b7b7b;
 }
 .bostami-parsonal-info-area.bostami-parsonal-info-2-area .bostami-parsonal-info-social-link li a:hover {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
@@ -4353,7 +4354,6 @@ textarea:focus::placeholder {
   font-weight: 400;
   text-transform: capitalize;
   line-height: 21px;
-  color: #696969;
   margin-bottom: 18px;
 }
 .blog-details-comment-item .flex .content p {
@@ -4622,7 +4622,7 @@ textarea:focus::placeholder {
 .dark-theme .page-wrapper .bostami-parsonal-info-bio,
 .dark-theme .page-wrapper .bostami-parsonal-info-social-link li a,
 .dark-theme .page-wrapper .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a {
-  background-color: #0C5C73;
+  background-color: #0C5C73; 
 }
 .dark-theme .page-wrapper .bg-light-white-2,
 .dark-theme .page-wrapper .blog-slider-single,
@@ -4668,7 +4668,7 @@ textarea:focus::placeholder {
 }
 .dark-theme .page-wrapper .bostami-parsonal-info-bio,
 .dark-theme .page-wrapper .bostami-contact-item .text span {
-  color: #a6a6a6;
+  
 }
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li a:hover {
   color: #fa5252;
@@ -4705,6 +4705,7 @@ textarea:focus::placeholder {
 }
 
 .dark-theme .page-wrapper-2 .bostami-page-area .bostami-page-wrap {
+  
   background: var(--common-white);
 }
 .dark-theme .page-wrapper-2 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a span svg * {
