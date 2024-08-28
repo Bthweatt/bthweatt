@@ -140,7 +140,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Avenir", sans-serif;
   color: var(--body-heading);
   margin-top: 0px;
   line-height: 1.5;
@@ -189,7 +189,7 @@ ul {
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Baskerville", serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 27px;
@@ -2031,8 +2031,8 @@ textarea:focus::placeholder {
   position: relative;
   display: inline-block;
   font-family:
-    Roboto Slab,
-    serif;
+    "Avenir",
+    sans-serif;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   lg,
@@ -2736,7 +2736,7 @@ textarea:focus::placeholder {
 }
 .btn-2.circle {
   border-radius: 30px;
-  font-family: "Montserrat", serif;  
+  font-family: "Avenir", sans-serif;  
   text-transform: capitalize;
 
 }
@@ -2756,10 +2756,10 @@ textarea:focus::placeholder {
 .bostami-parsonal-info-bio {
   font-size: 18px;
   display: inline-block;
-  font-weight: 550;
+  font-weight: 500;
   text-transform: capitalize;
   color: var(--body-text);
-  font-family: "Baskerville", serif;
+  font-family: "Avenir", sans-serif;
   border: 1px solid;
   border-radius: 5px;
   padding: 4px 20px;

@@ -56,12 +56,12 @@
       darktoggle.src = "assets/img/icon/sun-icon.png";
       /* home1bgimg.style.backgroundImage =
         "url('assets/img/bg/dark-bg.png')"; */
-        logo.src = "sub-tree/assets/img/logo/logo-dark.png";
+        logo.src = "/Users/bthweatt/bthweatt/public/sub-tree/assets/img/logo/logo-dark.png";
     } else {
       darktoggle.src = "assets/img/icon/mon-icon.png";
       /*home1bgimg.style.backgroundImage = "url('assets/img/bg/page-bg-1.jpg')";
       home2bgimg.style.backgroundImage = "url('assets/img/bg/page-bg-1.jpg')";*/
-      logo.src = "sub-tree/assets/img/logo/logo.png";
+      logo.src = "/Users/bthweatt/bthweatt/public/sub-tree/assets/img/logo/logo.png";
 
     }
   }
@@ -75,7 +75,7 @@
       darktoggle.src = "assets/img/icon/sun-icon.png";
       /*home1bgimg.style.backgroundImage =
         "url('assets/img/bg/page-bg-dark-1.jpg')";*/
-        logo.src = "sub-tree/assets/img/logo/logo-dark.png";
+        logo.src = "/Users/bthweatt/bthweatt/public/sub-tree/assets/img/logo/logo-dark.png";
     }
 
     // Attach click event to the specified div
